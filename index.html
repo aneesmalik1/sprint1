@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>E-COMMERCE WITH BOOTSTRAP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><strong>HEADPHONES STORE</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <italic>HOME</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="ADD_PRODUCT.html">
+                            <italic>ADD PRODUCT</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="about.html">
+                            <italic>ABOUT US</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">
+                            <italic>CONTACT US</italic>
+                        </a>
+                    </li>
+
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pexels2.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <ITALIC>MUSIC HITS DIFFERENT</ITALIC>
+                        </h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pexels3.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <ITALIC>HEADPHONES THAT LISTEN TO YOU</ITALIC>
+                        </h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pexels1.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <italic>NEVER LOSE YOUR TUNE</italic>
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+
+    <!-- PRODUCT SECTION -->
+
+    <section class="main_heading my-5">
+        <div class=" text-center ">
+            <h1 class="display-4">PRODUCTS</h1>
+            <hr class=" w-25 mx-auto " />
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/Headphone-Zone-Sony-WH-1000XM5-Black.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony-WH-1000XM5-Black</h5>
+                        <p class="card-text">Flagship Noise Cancelling Headphones.</p>
+                        <h4>₹ 29,990</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/sony-gaming-headphones1.webp" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony INZONE H9 WH-G900N </h5>
+                        <p class="card-text">Wireless Noise Cancelling Gaming Headset</p>
+                        <h4> ₹20,024</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/sony-headphones3.avif" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony WH-CH720N </h5>
+                        <p class="card-text">Dual Noise Sensor Technology, Over Ear, White</p>
+                        <h4>₹9,990.00</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <section class="main_heading my-5">
+        <!-- <div class=" text-center ">
+            <h1 class="display-4">PRODUCT</h1>
+            <hr class=" w-25 mx-auto " />
+        </div> -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/apple1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">APPLE New AirPods Max</h5>
+                        <p class="card-text">Bluetooth Headset (Green, On the Ear)</p>
+                        <h4>₹ 48,900</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/apple2.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple AirPods</h5>
+                        <p class="card-text">(3rd generation) </p>
+                        <p>with MagSafe Charging Case</p>
+                        <h4> ₹20,900</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/homepod1.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">APPLE HomePod </h5>
+                        <p class="card-text">with Siri Assistant Smart Speaker </p>
+                        <p>(Midnight)</p>
+                        <h4>₹32,900.00</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <section class="main_heading my-5">
+        <!-- <div class=" text-center ">
+            <h1 class="display-4">PRODUCT</h1>
+            <hr class=" w-25 mx-auto " />
+        </div> -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/beats1.jpg" class="card-img-top" alt="beats1">
+                    <div class="card-body">
+                        <h5 class="card-title">Beats Studio3 Wireless Over-Ear Headphone</h5>
+                        <p class="card-text">The Beats Skyline Collection - Midnight Black</p>
+
+                        <h4>₹ 32,900 </h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/beats2.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Beats Studio Buds +</h5>
+                        <p class="card-text">True Wireless Noise Cancelling Earbuds — Transparent </p>
+                        <h4> ₹14,999</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/beats3.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Beats Studio Buds </h5>
+                        <p class="card-text">True Wireless Noise Cancelling Earphones – Sunset Pink </p>
+
+                        <h4>₹12,900</h4>
+                        <a href="ADD_PRODUCT.html" class="btn btn-primary">Add to Cart</a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+
+
+    <!-- PRODUCT SECTION END -->
+
+
+
+   
+
+
+    <!-- offer section start -->
+    <section class="main_heading my-5 pt-5 bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-12 col-12 py-5 text-center">
+                    <h1>THANK YOU</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER SECTION END -->
+
+<!-- footer -->
+<footer class="bg-secondary text-center text-white">
+    <p>@COPYRIGHT</p>
+</footer>
+
+<!-- footer end -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

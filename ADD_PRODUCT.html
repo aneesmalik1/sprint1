@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>E-COMMERCE WITH BOOTSTRAP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><strong>HEADPHONES STORE</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <italic>HOME</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="ADD_PRODUCT.html">
+                            <italic>ADD PRODUCT</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="about.html">
+                            <italic>ABOUT US</italic>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">
+                            <italic>CONTACT US</italic>
+                        </a>
+                    </li>
+
+                </ul>
+              
+            </div>
+        </div>
+    </nav>
+    <section class="main_heading my-5 bg-light py-5">
+       
+        <div class="addproduct w-50 mx-auto my-3 p-2 shadow p-3 mb-5 bg-white rounded">
+            <h2>Add Headphone Details</h2>
+            <form id="addProductForm">
+                
+                <label for="productName">Headphone Name:</label>
+                <input type="text" id="productName" class="w-100 py-1 border border-secondary" required>
+                <label for="productCategory">Headphone Category:</label>
+                <select id="productCategory" class="form-select w-100" aria-label="Select Category">
+                    <option selected disabled>Select Category</option>
+                    <option value="APPLE">APPLE</option>
+                    <option value="SONY">SONY</option>
+                    <option value="BEAT">BEAT</option>
+                   
+
+                </select>
+                <label>Headphone Discription:</label>
+                <textarea class="w-100 py-1 border border-secondary"></textarea>
+                <label for="productImage">Select image:</label>
+                <input type="file" id="productImage" accept="image/*" required
+                    class="w-100 p-1 border border-secondary rounded">
+                <label for="productPrice">Price:</label>
+                <input type="number" id="productPrice" class="w-100 py-1 border border-secondary" required>
+                <button type="button" class="btn btn-primary text-center my-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    ORDER PLACED
+                </button>
+                
+    </section>
+    </form>
+
+    </div>
+
+
+    <!-- <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div> -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Order placed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Thank you for shopping with us
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-secondary text-center text-white">
+        <p>@COPYRIGHT</p>
+    </footer>
+
+    <!-- footer end -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
